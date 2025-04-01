@@ -10,10 +10,10 @@ load_dotenv(override=True)
 pattern = re.compile(r"^.\d+$")
 
 # vars
-APP_ID = int(os.environ.get("APP_ID", default=None))
-API_HASH = os.environ.get("API_HASH", default=None)
-BOT_TOKEN = os.environ.get("BOT_TOKEN", default=None)
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "24010108")
+API_HASH = os.environ.get("API_HASH", "8d89700b2fc09a3aa6c906cbed65b040")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5580813031:AAHbEdD_g1MwYozWxEJdi3EIl5YwkMa1pvY")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6936727037"))
 SESSION = os.environ.get("SESSION", "")
 ADMINS = [
     int(user) if pattern.search(user) else user
