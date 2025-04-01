@@ -1,0 +1,6 @@
+pyrotgfork==2.1.33.11
+tgcrypto
+python-dotenv
+uvloop
+psutil
+aiosqlite
